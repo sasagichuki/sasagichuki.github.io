@@ -1,0 +1,527 @@
+body.loading {
+    
+    background-image: url(../i/loader.gif);
+    background-position: center 100px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-right: 16px;
+
+}
+
+#wrap {
+    overflow: hidden;
+    width: 100%;
+    min-width: 960px;
+}
+
+#header {
+    width: 960px;
+	height:640px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+#header h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 30px 0 0;
+	padding: 0;
+	height: 70px;
+	line-height: 60px;
+	width: 230px;
+	
+	/*text-indent: -5000px;*/
+	/*background-image: url(../i/chaos_logo.png);*/
+}
+#header h2 {
+    padding: 20px 0 0 250px;
+	background-color: #;}
+	
+#header h3 {
+    padding: 0px 0 0 257px;
+	margin-top:240px;
+	background-color: #;
+}
+#header h4 {
+    padding: 5px 0 0 270px;
+}
+#header .content {
+	display:block;
+	width:280px;
+	margin: 0 auto;
+	margin-top:30px;
+}
+#header .loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/*this is social*/
+
+#awards{
+	float:right;
+	margin-right:15px;
+	height:132px;
+	width:470px;
+	position:relative;
+
+	}
+#awards img{
+	
+	}
+
+#awards .piece {
+	list-style:none;
+
+	}
+
+#awards .piece a{
+	background:url(../i/awards/awards.jpg) no-repeat;
+	overflow:hidden;
+	height:30px;
+	width:100px;
+	float:right;
+	margin-left:10px;
+	margin-top:19px;
+	-webkit-transition: 300ms all;
+	-webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+	border-radius: 18;
+	}
+
+
+#awards .one a {
+	background-position: 0px 0px;
+	opacity:0.5;
+	}
+
+#awards .two a{
+	background-position: -100px 0px;
+	opacity:0.5;
+	}
+
+#awards .three a{
+	background-position: -200px 0px;
+	opacity:0.5;
+	}
+
+#awards .four a{
+	background-position: -300px 0px;
+	opacity:0.5;
+	}
+
+#awards .five a{
+	background-position: -400px 0px;
+	opacity:0.5;
+	}
+	
+#awards .one a:hover{
+	background-position: 0px -33px;
+	opacity:1.0;
+	}
+
+#awards .two a:hover{
+	background-position: -100px -33px;
+	opacity:1.0;
+	}
+	
+#awards .three a:hover{
+	background-position: -200px -33px;
+	opacity:1.0;
+	}
+	
+#awards .four a:hover {
+	background-position: -300px -33px;
+	opacity:1.0;
+	}
+	
+#awards .five a:hover {
+	background-position: -400px -33px;
+	opacity:1.0;
+	}
+
+
+.social {
+	font-family: 'Lato', sans-serif;
+	height:170px;
+	margin-right:30px;
+	margin-left:15px;
+	float:left;
+	width:392px;
+	padding-top:20px;
+	
+		  }
+		  
+.social .linky {
+	height: 30px;
+	width:115px;
+
+}
+	
+.social a {
+	
+    height: 30px;
+	width: 30px;
+    line-height:30px;
+    border: none;
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 0;
+    -webkit-transition: 300ms all;
+    background: #A09F9E;
+    opacity: 0.9;
+    color: #deddd8;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.social a:hover {
+    opacity: 1;
+    color: #fff;
+    cursor: pointer;
+	-webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+	background: #e44e04;
+	
+	}
+	
+/*a copy of social above*/
+
+.social2 { 
+	height:75px;
+	/*width:300px;*/
+	float:right;
+	margin-top:20px;
+	
+		  }
+		  
+.social2 .linky {
+	height: 36px;
+	width:80px;
+
+}
+	
+.social2 a {
+	
+    height: 36px;
+	width: 36px;
+    line-height: 36px;
+    border: none;
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 0;
+    -webkit-transition: 300ms all;
+    background: #282624;
+    opacity: 0.9;
+    color: #deddd8;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+.social2 a:hover {
+    opacity: 1;
+    color: #fff;
+    cursor: pointer;
+	-webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+	background: #e44e04;
+	
+	}
+
+/*a copy of social*/
+
+#parts {
+    width: 960px;
+    margin: 0 auto ;
+    position: relative;
+    height: 900px;
+    z-index: 1;
+    opacity: 0;
+}
+#parts img {
+	position: absolute;
+	top: 15px;
+	left: -41px;
+}
+body.edit #parts {
+    background: url(http://www.chaos.co.ke/media/i/outline.png);
+
+}
+
+#footer {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#footer .liner {
+	
+	width:960px;
+	float:left; 
+	height:10px;
+	background:url(../i/ground.png) no-repeat;
+	margin-top:65px;
+}
+/*
+#footer .form,
+#footer .social {
+    position: relative;
+    float: right;
+    display: inline;
+    width: 350px;
+    padding: 0 20px 20px;
+}
+#footer .form .border,
+#footer .social .border {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1px;
+    height: 38px;
+    background: #ccc;
+}
+#footer .social {
+    width: 180px;
+}
+#footer h6,
+#footer a {
+    color: #888;
+    font-weight: 400;
+    margin: 0 0 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+#footer .form input,
+#footer .social a {
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+#footer .form input {
+    color: #888;
+    background: #fff;
+    padding: 0 8px;
+}
+#footer a {
+    -webkit-transition: 300ms all;
+}
+#footer .form input.submit,
+#footer .social a {
+    width: 36px;
+    background: #282624;
+    opacity: 0.9;
+    color: #deddd8;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+
+}
+#footer .form input.text {
+    padding: 9px 8px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #4B4B4B;
+    width: 270px;
+}
+#footer .form input.submit:hover,
+#footer .social a:hover {
+    opacity: 1;
+    color: #fff;
+    cursor: pointer;
+	
+}
+#footer .social a:hover {
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+}
+#footer .form input.submit {
+    width: 50px;
+    padding: 0;
+}
+#footer .tweeter {
+    display: block;
+    margin: 10px 0 25px 760px;
+}
+#footer .logo {
+    float: right;
+    margin: 20px 0;
+}
+#footer a:hover {
+    color: #222;
+}
+
+#footer hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    height: 0;
+    margin: 0;
+}
+*/
+
+
+.save {
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.save a {
+    display: block;
+}
+
+
+body.thanks #header h1 {
+    position: relative;
+}
+#thanks {
+    width: 960px;
+    margin:0 auto;
+    color: #888;
+    font-size: 14px;
+    padding: 90px 0;
+    border-top: 1px solid #ccc;
+    margin-top: 12px;
+}
+#thanks h3 {
+    text-transform: none;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+}
+#thanks p {
+    margin: 10px 0;
+}
+
+
+
+.touch #wrap {
+    margin: 0 auto;
+    width: 640px;
+    min-width: 640px;
+}
+.touch #header,
+.touch #footer,
+.touch #parts,
+.touch #thanks {
+    width: 640px;
+}
+.touch #header {
+    padding: 20px 0 0;
+}
+.touch #header h1,
+.touch #header h2,
+.touch #header h3 {
+    position: relative;
+    padding: 0 10px;
+    margin: 20px 0 20px 50px;
+}
+.touch #parts {
+    background: url(http://www.chaos.co.ke/media/i/iphone.png);
+    height: 2364px;
+    
+}
+.touch #parts img {
+    display: none;
+}
+.touch #footer {
+    margin-bottom: 100px;
+}
+.touch #footer .logo {
+    margin-right: 20px;
+}
+
+/*tooltip css*/
+
+.masterTooltip{
+
+}
+.tooltip {
+	display:none;
+	max-width:220px;
+	max-height:220px;
+	position:absolute;
+	/*border:1px solid #ddd;*/
+	background:url(http://www.chaos.co.ke/media/i/lines.png) left top #FFF;
+	border-radius:5px;
+	padding:10px;
+	color:#999;
+	font-family: 'Lato', sans-serif;
+	font-size:12px ;
+	z-index:99999;
+
+
+/*Box Shadow*/
+	-webkit-box-shadow: 13px 14px 5px rgba(50, 50, 50, 0.35);
+	-moz-box-shadow:    13px 14px 5px rgba(50, 50, 50, 0.35);
+	box-shadow:         13px 14px 5px rgba(50, 50, 50, 0.35);
+}
+
+.tiparrow{
+	background: url(../i/tooltipx.png) no-repeat left top;
+	width:50px;
+	height:40px;
+	margin-left:-34px;
+	top:-10px;
+	position:absolute;
+	z-index:99998;
+	}
+
+.shadow {
+	width:100%; height:70px;
+	background:url(../i/shadow.png);
+	}
+
+
+
+@media (max-width: 800px) {
+  
+#wrap, #header, .content, #parts {
+
+    width: 310px;
+    margin: 0px 10px;
+    
+    }
+#footer, .social, #awards {
+
+    width: 304px;
+    margin: 0px 10px;
+
+    }
+#footer .liner {
+
+    width: 304px;
+    margin: 0px 10px;
+}
+
+.shadow {background: url(site.css);}
+
+#awards, #parts {display: none; margin: 0px;}
+
+.social {margin: 0px 0px 0px 7px;}
+
+#header h2{padding: 0px;}
+
+}

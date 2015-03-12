@@ -1,0 +1,36 @@
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link,
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited,
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
+h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active,
+h1 a.current, h2 a.current, h3 a.current, h4 a.current, h5 a.current, h6 a.current,
+h1 a.current:hover, h2 a.current:hover, h3 a.current:hover, h4 a.current:hover, h5 a.current:hover, h6 a.current:hover {
+    color: inherit;
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-size: inherit;
+    line-height: inherit;
+    text-decoration: inherit;
+}
+
+.clearfix:after{clear:both;content:'.';display:block;visibility:hidden;height:0}.clearfix{display:inline-block}* html .clearfix{height:1%}.clearfix{display:block}
+.spacer { height: 1em; }.spacer.large { height: 4em; }
+
+a.current {
+	color: inherit;
+	cursor: default;
+}
+
+.clear {
+    clear: both;
+}
+
+
+article, section, aside, nav, hgroup, footer, header {
+    display: block;
+}
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+    margin: 0;
+}

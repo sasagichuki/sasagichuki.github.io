@@ -1,0 +1,10 @@
+body.loading {
+    background-image: none;
+    overflow: auto;
+}
+#parts {
+    opacity: 1;
+}
+#header .loading {
+    display: none;
+}
